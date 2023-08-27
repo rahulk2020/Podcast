@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="Colorful Modern Stream C Free Logo.png">
+
+    <style>
+         *{ 
+           background-color: #efeef0;
+           margin: 0;
+           padding: 0;
+        }
+         .image img{
+            float: left;
+            width: 8%;
+            height: 8%;
+        }
+       .navbar nav ul a{
+                margin-top: 2%;
+                margin-right: 5%;
+                float: right;
+                color: black;
+                padding: 8px;
+                text-decoration: none;
+                font-size: 18px;
+                display:inline-block;
+                list-style: none;
+                transition:step-start;
+        }
+        .navbar nav ul a:hover{
+            color: rgb(9, 9, 187);
+            border-bottom: 2px orangered solid;
+            /* border-left: 2px orangered solid; */
+        }
+        h1{
+            color: #ff7b07;
+        }
+        form{
+            border: #ff7b07 solid 2px;
+            padding: 5%;
+            border-radius: 10px;
+        }
+         button{
+                background:rgb(38, 78, 234);
+                color: #ff7b07;
+                cursor: pointer;
+                font-weight: 800;
+                border: #ff7b07 solid 1.5px;
+                border-radius: 10vh;
+                padding: .5em 0.5em;
+                margin-left: 10%;
+                transition: .5s;
+         }
+         button:hover
+         {
+            background-color: #ff7b07;
+            color:rgb(38, 78, 234) ;
+         }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+        <ul>
+                <!-- <a href="#" target="_blank"><li>Contact Us</li></a> -->
+                <!-- <a href="contact.html"><li>Feedback</li></a> -->
+                <a href="login.html"><li>Login</li></a>
+                <!-- <a href="About.html"><li>About Us</li></a> -->
+                <a href="index.html" ><li>Home</li></a>
+        </ul>
+        </nav>
+    </div>
+    <div class="image">
+        <img src="Colorful_Modern_Stream_C_Free_Logo-removebg-preview.png" alt="VR image" id="logo-image">
+    </div>
+
+    <br><br><br><br>
+    <center>
+        <h1>Contact us</h1><br>
+    <form action="thank.html" method="post">
+        <input type="text" name="name" id="" placeholder="Your Name"><br><br>
+        <input type="email" name="emailaddress" id="" placeholder="Your Email Address"><br><br>
+        <input type="text" name="mobile" id=""placeholder="Your Mobile Number"><br><br>
+        <input type="text" name="message" id=""placeholder="Your Message"><br><br>
+        <button type="submit">Submit</button>
+    </form></center>
+    <br><br>
+    <!-- <h3>click <a href="index.html">here</a> to go to home page</h3> -->
+
+</body>
+</html>

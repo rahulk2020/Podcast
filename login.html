@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="Colorful Modern Stream C Free Logo.png">
+    <link rel="stylesheet" href="style.css">
+ <style>
+        *{ 
+           background-color: #efeef0;
+           margin: 0;
+           padding: 0;
+        }
+         .image img{
+            float: left;
+            width: 8%;
+            height: 8%;
+        }
+       .navbar nav ul a{
+                margin-top: 2%;
+                margin-right: 5%;
+                float: right;
+                color: black;
+                padding: 8px;
+                text-decoration: none;
+                font-size: 18px;
+                display:inline-block;
+                list-style: none;
+                transition:step-start;
+        }
+        .navbar nav ul a:hover{
+            color: rgb(9, 9, 187);
+            border-bottom: 2px orangered solid;
+            /* border-left: 2px orangered solid; */
+        }
+        form{
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 2px solid orangered;
+            border-radius: 20px;
+        }
+        .sub{
+            background: orangered;
+            border-radius: 10px;
+            padding: 2px;
+            font-size: larger;
+            font-family:'Times New Roman', Times, serif;
+            transition: .5s;
+        }
+        .sub:hover{
+            background-color: rgb(253, 101, 46);
+        }
+        h1{
+            font-size: 50px;
+            margin-left: 10%;
+            margin-bottom: 0%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: chocolate;
+            transition: .6s;
+        }
+</style>
+</head>
+<body>
+        <span>
+        <div>
+            <div class="navbar">
+                <nav>
+                <ul>
+                        <!-- <a href="contact.html"><li>Contact Us</li></a> -->
+                         <a href="contact.html"><li>Feedback</li></a>
+                        <!-- <a href="#"><li>Login</li></a> -->
+                        <a href="About.html"><li>About Us</li></a> -->
+                        <a href="index.html" ><li>Home</li></a>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="image">
+                <img src="Colorful_Modern_Stream_C_Free_Logo-removebg-preview.png" alt="VR image" id="logo-image">
+            </div>
+            <br><br><br><br>
+            <h1>Please Login:</h1>
+            <br><br>
+            <div><center>
+                <form action="index.html"><br>
+                    Username: <input type="text" name="Username" id="username" required><br><br>
+                    Password: <input type="password" name="password" id="password" required><br><br>
+                    Confirm Password: <input type="password" name="password1" id="password1" required><br><br><br>
+                    <input type="submit" class="sub"><br><br>
+                </form></center>
+            </div>
+        </div>
+        </span>
+</body>
+</html>

@@ -1,0 +1,111 @@
+footer {
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #124df0 solid;
+    border-radius: 2px;
+    transition: all .4s;
+}
+footer:hover {
+  border: #ff6905 solid;
+}
+.conatiner{
+  width: auto;
+  padding:1%;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(5rem,0.5fr));
+  grid-gap: 0.5rem; 
+}
+.card{
+  mix-blend-mode: transparent;
+  background:transparent;
+  border: #ff6905 solid 2px;
+  padding: 0.2rem; 
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+.card-title-large{
+  font-family: fantasy,sans-serif;
+  font-size:medium;
+  letter-spacing:0.1cm; 
+  background-color: transparent;
+  transform: translateX(5rem);
+  transition: transform 2.5s;
+}
+.card-title-small{
+  margin-bottom: .5rem;
+  background-color: transparent;
+}
+.card-description{
+  font-size: small;
+  font-family: cursive;
+  background-color: transparent;
+  
+}
+.card-cta{
+   display: inline-block; 
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+}
+.card:hover .card-cta{
+  background-color:#ffff;
+}
+.card:hover .card-title-large{
+  transform: translateX(-110%);
+}
+.card.twitter:hover{
+  background-color: #1da1f2;
+}
+.card.instagram:hover{
+  background: radial-gradient(
+    at 20% 128%,
+    #feda78 20%,
+    #e23467 60%,
+    #ac2bb3 90%
+  );
+}
+.card.facebook:hover{
+  background-color: #4267b2;
+}
+.card.youtube:hover{
+  background-color: #ff074f;
+}
+.ans {
+    margin-left: 5%;
+    margin-right: 15%; 
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    padding: 10px;
+}
+.ques 
+{
+  font-weight: 1200;
+    font-size: 30px;
+    padding-left: 0;
+     margin-left: 40%; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+}
+p .copy{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:small;
+}
+.gif1{
+  padding-right: 0;
+  padding: 0;
+  margin-left: 5%; 
+  border-radius: 10px;
+  width: 30%;
+  height: 20%;
+}
+.gif{
+  align-items:center;
+  justify-content: center;
+  display: flex;
+}
